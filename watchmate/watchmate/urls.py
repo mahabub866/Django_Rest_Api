@@ -18,5 +18,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('moive/', include('watchlist_app.urls')),
+    path('moive/', include('watchlist_app.api.urls')),
+   
 ]
