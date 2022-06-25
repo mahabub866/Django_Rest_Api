@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="F:\Project\Python\Django_Rest_Api\rest_env"
+VIRTUAL_ENV="F:\Project\Python\Django_Rest_Api\watchmate\rest_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
